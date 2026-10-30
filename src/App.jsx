@@ -27,6 +27,7 @@ function App() {
         <h1>My To-Do List</h1>
         <TodoForm onAdd={addTask} />
         <TodoList tasks={tasks} onToggle={toggleTask} onDelete={deleteTask} />
+        <p>Created by our FSD Lab Team</p>
       </div>
     </main>
   )
